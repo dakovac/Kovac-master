@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400F0B5C1F2A4EF7009BB3B8 /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F0B581F2A4EF7009BB3B8 /* OnboardingContentViewController.m */; };
+		400F0B5D1F2A4EF7009BB3B8 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F0B5B1F2A4EF7009BB3B8 /* OnboardingViewController.m */; };
+		40526AB91EC4DA35009F6126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40526AB81EC4DA35009F6126 /* AppDelegate.swift */; };
+		40526ABB1EC4DA35009F6126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40526ABA1EC4DA35009F6126 /* ViewController.swift */; };
+		40526ABE1EC4DA35009F6126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40526ABC1EC4DA35009F6126 /* Main.storyboard */; };
+		40526AC31EC4DA35009F6126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40526AC21EC4DA35009F6126 /* Assets.xcassets */; };
+		40526AC61EC4DA35009F6126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40526AC41EC4DA35009F6126 /* LaunchScreen.storyboard */; };
+		405620E21EDED82C00E25CD6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405620E11EDED82C00E25CD6 /* LocalAuthentication.framework */; };
+		4079A6D01F0AB5FB008239A1 /* RegisterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079A6CF1F0AB5FB008239A1 /* RegisterLoginViewController.swift */; };
+		6922321E1ECC2B3500787C5C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922321D1ECC2B3500787C5C /* AboutUsViewController.swift */; };
+		692232201ECC746600787C5C /* PersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922321F1ECC746600787C5C /* PersonalDetailViewController.swift */; };
+		695294BC1F0B4D5B00C4CAE8 /* ChildrenDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695294BB1F0B4D5B00C4CAE8 /* ChildrenDetailTableViewCell.swift */; };
+		698E255B1F050E1100DC03B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E255A1F050E1100DC03B9 /* HomeViewController.swift */; };
+		6994C6101ECD823A00B64D35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C60F1ECD823A00B64D35 /* LoginViewController.swift */; };
+		6994C6121ECD827000B64D35 /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6111ECD827000B64D35 /* EmployeeDetailsViewController.swift */; };
+		6994C6141ECD829500B64D35 /* SuperannuationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6131ECD829500B64D35 /* SuperannuationDetailViewController.swift */; };
+		6994C6181ECD82C500B64D35 /* InsuranceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6171ECD82C500B64D35 /* InsuranceDetailViewController.swift */; };
+		6994C61A1ECD82E600B64D35 /* AssetLiabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6191ECD82E600B64D35 /* AssetLiabilityViewController.swift */; };
+		6994C61E1ECD831800B64D35 /* IdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C61D1ECD831800B64D35 /* IdentificationViewController.swift */; };
+		6994C6201ECD832C00B64D35 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C61F1ECD832C00B64D35 /* DisclaimerViewController.swift */; };
+		6994C6221ECD835900B64D35 /* SubmittedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6211ECD835900B64D35 /* SubmittedViewController.swift */; };
+		6994C6241ECD837000B64D35 /* ReferFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6231ECD837000B64D35 /* ReferFriendViewController.swift */; };
+		6994C6261ECD839200B64D35 /* ExistingClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6251ECD839200B64D35 /* ExistingClientViewController.swift */; };
+		6994C6281ECD85DE00B64D35 /* RiskProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6271ECD85DE00B64D35 /* RiskProfileViewController.swift */; };
+		6994C62A1ECD860700B64D35 /* PhotoUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994C6291ECD860700B64D35 /* PhotoUploadViewController.swift */; };
+		69CEE5D21F1B5A8900C9A333 /* InvestmentFundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CEE5D11F1B5A8900C9A333 /* InvestmentFundTableViewCell.swift */; };
+		9E21C553FC50EC34A072684D /* Pods_KovacAdvisory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E99150A8051D281AAC0DFEB /* Pods_KovacAdvisory.framework */; };
+		ACBDBE711FCA59E9006FAF34 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDBE701FCA59E9006FAF34 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E3CE0312939D1034CA49877 /* Pods-KovacAdvisory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisory.release.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisory/Pods-KovacAdvisory.release.xcconfig"; sourceTree = "<group>"; };
+		14807C7420CF92E7612555FE /* Pods-KovacAdvisoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisoryTests/Pods-KovacAdvisoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27F077829114D21B482EB0E9 /* Pods-KovacAdvisoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisoryUITests/Pods-KovacAdvisoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		400F0B551F2A4D9C009BB3B8 /* KovacAdvisory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KovacAdvisory-Bridging-Header.h"; path = "KovacAdvisory/KovacAdvisory-Bridging-Header.h"; sourceTree = "<group>"; };
+		400F0B571F2A4EF7009BB3B8 /* OnboardingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingContentViewController.h; sourceTree = "<group>"; };
+		400F0B581F2A4EF7009BB3B8 /* OnboardingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingContentViewController.m; sourceTree = "<group>"; };
+		400F0B591F2A4EF7009BB3B8 /* OnboardingContentViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingContentViewController_Private.h; sourceTree = "<group>"; };
+		400F0B5A1F2A4EF7009BB3B8 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		400F0B5B1F2A4EF7009BB3B8 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
+		40526AB51EC4DA35009F6126 /* KovacAdvisory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KovacAdvisory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40526AB81EC4DA35009F6126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40526ABA1EC4DA35009F6126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40526ABD1EC4DA35009F6126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40526AC21EC4DA35009F6126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40526AC51EC4DA35009F6126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40526AC71EC4DA35009F6126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405620E11EDED82C00E25CD6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		4079A6CF1F0AB5FB008239A1 /* RegisterLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterLoginViewController.swift; path = Controller/RegisterLoginViewController.swift; sourceTree = "<group>"; };
+		41119882D0DDDF0BFBC44AE2 /* Pods-KovacAdvisoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisoryTests/Pods-KovacAdvisoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A9B2C43E9B15E633AE5F708 /* Pods_KovacAdvisoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KovacAdvisoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6922321D1ECC2B3500787C5C /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = Controller/AboutUsViewController.swift; sourceTree = "<group>"; };
+		6922321F1ECC746600787C5C /* PersonalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalDetailViewController.swift; path = Controller/PersonalDetailViewController.swift; sourceTree = "<group>"; };
+		695294BB1F0B4D5B00C4CAE8 /* ChildrenDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildrenDetailTableViewCell.swift; path = View/ChildrenDetailTableViewCell.swift; sourceTree = "<group>"; };
+		698E255A1F050E1100DC03B9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		6994C60F1ECD823A00B64D35 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
+		6994C6111ECD827000B64D35 /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeDetailsViewController.swift; path = Controller/EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		6994C6131ECD829500B64D35 /* SuperannuationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperannuationDetailViewController.swift; path = Controller/SuperannuationDetailViewController.swift; sourceTree = "<group>"; };
+		6994C6171ECD82C500B64D35 /* InsuranceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuranceDetailViewController.swift; path = Controller/InsuranceDetailViewController.swift; sourceTree = "<group>"; };
+		6994C6191ECD82E600B64D35 /* AssetLiabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetLiabilityViewController.swift; path = Controller/AssetLiabilityViewController.swift; sourceTree = "<group>"; };
+		6994C61D1ECD831800B64D35 /* IdentificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IdentificationViewController.swift; path = Controller/IdentificationViewController.swift; sourceTree = "<group>"; };
+		6994C61F1ECD832C00B64D35 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisclaimerViewController.swift; path = Controller/DisclaimerViewController.swift; sourceTree = "<group>"; };
+		6994C6211ECD835900B64D35 /* SubmittedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmittedViewController.swift; path = Controller/SubmittedViewController.swift; sourceTree = "<group>"; };
+		6994C6231ECD837000B64D35 /* ReferFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReferFriendViewController.swift; path = Controller/ReferFriendViewController.swift; sourceTree = "<group>"; };
+		6994C6251ECD839200B64D35 /* ExistingClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExistingClientViewController.swift; path = Controller/ExistingClientViewController.swift; sourceTree = "<group>"; };
+		6994C6271ECD85DE00B64D35 /* RiskProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RiskProfileViewController.swift; path = Controller/RiskProfileViewController.swift; sourceTree = "<group>"; };
+		6994C6291ECD860700B64D35 /* PhotoUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoUploadViewController.swift; path = Controller/PhotoUploadViewController.swift; sourceTree = "<group>"; };
+		69CEE5D11F1B5A8900C9A333 /* InvestmentFundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InvestmentFundTableViewCell.swift; path = View/InvestmentFundTableViewCell.swift; sourceTree = "<group>"; };
+		6D4EFFF0446F78F873D61631 /* Pods-KovacAdvisory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisory/Pods-KovacAdvisory.debug.xcconfig"; sourceTree = "<group>"; };
+		6E99150A8051D281AAC0DFEB /* Pods_KovacAdvisory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KovacAdvisory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CEB4B968DA2FF9D1E6920B /* Pods-KovacAdvisoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KovacAdvisoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KovacAdvisoryUITests/Pods-KovacAdvisoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACBDBE701FCA59E9006FAF34 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C03297D557FC85D53AAA6BDA /* Pods_KovacAdvisoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KovacAdvisoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40526AB21EC4DA35009F6126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405620E21EDED82C00E25CD6 /* LocalAuthentication.framework in Frameworks */,
+				9E21C553FC50EC34A072684D /* Pods_KovacAdvisory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDC7018FC158A785A06F2CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D4EFFF0446F78F873D61631 /* Pods-KovacAdvisory.debug.xcconfig */,
+				0E3CE0312939D1034CA49877 /* Pods-KovacAdvisory.release.xcconfig */,
+				14807C7420CF92E7612555FE /* Pods-KovacAdvisoryTests.debug.xcconfig */,
+				41119882D0DDDF0BFBC44AE2 /* Pods-KovacAdvisoryTests.release.xcconfig */,
+				27F077829114D21B482EB0E9 /* Pods-KovacAdvisoryUITests.debug.xcconfig */,
+				98CEB4B968DA2FF9D1E6920B /* Pods-KovacAdvisoryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		400F0B561F2A4EF7009BB3B8 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				400F0B571F2A4EF7009BB3B8 /* OnboardingContentViewController.h */,
+				400F0B581F2A4EF7009BB3B8 /* OnboardingContentViewController.m */,
+				400F0B591F2A4EF7009BB3B8 /* OnboardingContentViewController_Private.h */,
+				400F0B5A1F2A4EF7009BB3B8 /* OnboardingViewController.h */,
+				400F0B5B1F2A4EF7009BB3B8 /* OnboardingViewController.m */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		40526AAC1EC4DA35009F6126 = {
+			isa = PBXGroup;
+			children = (
+				400F0B551F2A4D9C009BB3B8 /* KovacAdvisory-Bridging-Header.h */,
+				40526AB71EC4DA35009F6126 /* KovacAdvisory */,
+				40526AB61EC4DA35009F6126 /* Products */,
+				1DDC7018FC158A785A06F2CB /* Pods */,
+				C6A541587FAF8CD083489672 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40526AB61EC4DA35009F6126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40526AB51EC4DA35009F6126 /* KovacAdvisory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40526AB71EC4DA35009F6126 /* KovacAdvisory */ = {
+			isa = PBXGroup;
+			children = (
+				695294B81F0B4CCD00C4CAE8 /* View */,
+				6922321A1ECC2AC900787C5C /* Controller */,
+				40526AB81EC4DA35009F6126 /* AppDelegate.swift */,
+				40526ABC1EC4DA35009F6126 /* Main.storyboard */,
+				40526AC21EC4DA35009F6126 /* Assets.xcassets */,
+				40526AC41EC4DA35009F6126 /* LaunchScreen.storyboard */,
+				40526AC71EC4DA35009F6126 /* Info.plist */,
+			);
+			path = KovacAdvisory;
+			sourceTree = "<group>";
+		};
+		6922321A1ECC2AC900787C5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40526ABA1EC4DA35009F6126 /* ViewController.swift */,
+				6922321D1ECC2B3500787C5C /* AboutUsViewController.swift */,
+				6922321F1ECC746600787C5C /* PersonalDetailViewController.swift */,
+				6994C60F1ECD823A00B64D35 /* LoginViewController.swift */,
+				6994C6111ECD827000B64D35 /* EmployeeDetailsViewController.swift */,
+				6994C6131ECD829500B64D35 /* SuperannuationDetailViewController.swift */,
+				6994C6171ECD82C500B64D35 /* InsuranceDetailViewController.swift */,
+				6994C6191ECD82E600B64D35 /* AssetLiabilityViewController.swift */,
+				6994C61D1ECD831800B64D35 /* IdentificationViewController.swift */,
+				6994C61F1ECD832C00B64D35 /* DisclaimerViewController.swift */,
+				6994C6211ECD835900B64D35 /* SubmittedViewController.swift */,
+				6994C6231ECD837000B64D35 /* ReferFriendViewController.swift */,
+				6994C6251ECD839200B64D35 /* ExistingClientViewController.swift */,
+				6994C6271ECD85DE00B64D35 /* RiskProfileViewController.swift */,
+				6994C6291ECD860700B64D35 /* PhotoUploadViewController.swift */,
+				698E255A1F050E1100DC03B9 /* HomeViewController.swift */,
+				4079A6CF1F0AB5FB008239A1 /* RegisterLoginViewController.swift */,
+				ACBDBE701FCA59E9006FAF34 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		695294B81F0B4CCD00C4CAE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				695294BB1F0B4D5B00C4CAE8 /* ChildrenDetailTableViewCell.swift */,
+				69CEE5D11F1B5A8900C9A333 /* InvestmentFundTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C6A541587FAF8CD083489672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400F0B561F2A4EF7009BB3B8 /* Onboard */,
+				405620E11EDED82C00E25CD6 /* LocalAuthentication.framework */,
+				6E99150A8051D281AAC0DFEB /* Pods_KovacAdvisory.framework */,
+				4A9B2C43E9B15E633AE5F708 /* Pods_KovacAdvisoryTests.framework */,
+				C03297D557FC85D53AAA6BDA /* Pods_KovacAdvisoryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40526AB41EC4DA35009F6126 /* KovacAdvisory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40526AE01EC4DA35009F6126 /* Build configuration list for PBXNativeTarget "KovacAdvisory" */;
+			buildPhases = (
+				C36523182182CB94791C0030 /* [CP] Check Pods Manifest.lock */,
+				40526AB11EC4DA35009F6126 /* Sources */,
+				40526AB21EC4DA35009F6126 /* Frameworks */,
+				40526AB31EC4DA35009F6126 /* Resources */,
+				967D439DB35E4D4600619F4F /* [CP] Embed Pods Frameworks */,
+				DC40A640EF1B3CC4AD5637F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KovacAdvisory;
+			productName = KovacAdvisory;
+			productReference = 40526AB51EC4DA35009F6126 /* KovacAdvisory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40526AAD1EC4DA35009F6126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shivam Singh";
+				TargetAttributes = {
+					40526AB41EC4DA35009F6126 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 867742L8F8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40526AB01EC4DA35009F6126 /* Build configuration list for PBXProject "KovacAdvisory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40526AAC1EC4DA35009F6126;
+			productRefGroup = 40526AB61EC4DA35009F6126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40526AB41EC4DA35009F6126 /* KovacAdvisory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40526AB31EC4DA35009F6126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40526AC61EC4DA35009F6126 /* LaunchScreen.storyboard in Resources */,
+				40526AC31EC4DA35009F6126 /* Assets.xcassets in Resources */,
+				40526ABE1EC4DA35009F6126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		967D439DB35E4D4600619F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KovacAdvisory/Pods-KovacAdvisory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KovacAdvisory/Pods-KovacAdvisory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36523182182CB94791C0030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KovacAdvisory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC40A640EF1B3CC4AD5637F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KovacAdvisory/Pods-KovacAdvisory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40526AB11EC4DA35009F6126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6994C6101ECD823A00B64D35 /* LoginViewController.swift in Sources */,
+				ACBDBE711FCA59E9006FAF34 /* MainViewController.swift in Sources */,
+				6994C6201ECD832C00B64D35 /* DisclaimerViewController.swift in Sources */,
+				6994C6241ECD837000B64D35 /* ReferFriendViewController.swift in Sources */,
+				6994C6281ECD85DE00B64D35 /* RiskProfileViewController.swift in Sources */,
+				6994C61A1ECD82E600B64D35 /* AssetLiabilityViewController.swift in Sources */,
+				698E255B1F050E1100DC03B9 /* HomeViewController.swift in Sources */,
+				6994C61E1ECD831800B64D35 /* IdentificationViewController.swift in Sources */,
+				6994C6221ECD835900B64D35 /* SubmittedViewController.swift in Sources */,
+				6994C6141ECD829500B64D35 /* SuperannuationDetailViewController.swift in Sources */,
+				695294BC1F0B4D5B00C4CAE8 /* ChildrenDetailTableViewCell.swift in Sources */,
+				6994C6121ECD827000B64D35 /* EmployeeDetailsViewController.swift in Sources */,
+				6994C6181ECD82C500B64D35 /* InsuranceDetailViewController.swift in Sources */,
+				6922321E1ECC2B3500787C5C /* AboutUsViewController.swift in Sources */,
+				400F0B5C1F2A4EF7009BB3B8 /* OnboardingContentViewController.m in Sources */,
+				6994C62A1ECD860700B64D35 /* PhotoUploadViewController.swift in Sources */,
+				692232201ECC746600787C5C /* PersonalDetailViewController.swift in Sources */,
+				40526ABB1EC4DA35009F6126 /* ViewController.swift in Sources */,
+				6994C6261ECD839200B64D35 /* ExistingClientViewController.swift in Sources */,
+				4079A6D01F0AB5FB008239A1 /* RegisterLoginViewController.swift in Sources */,
+				40526AB91EC4DA35009F6126 /* AppDelegate.swift in Sources */,
+				69CEE5D21F1B5A8900C9A333 /* InvestmentFundTableViewCell.swift in Sources */,
+				400F0B5D1F2A4EF7009BB3B8 /* OnboardingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40526ABC1EC4DA35009F6126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40526ABD1EC4DA35009F6126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40526AC41EC4DA35009F6126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40526AC51EC4DA35009F6126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40526ADE1EC4DA35009F6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/CapitalVia/Documents/Shivam/Kovac/BridgingHeader.pch;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40526ADF1EC4DA35009F6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/CapitalVia/Documents/Shivam/Kovac/BridgingHeader.pch;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40526AE11EC4DA35009F6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4EFFF0446F78F873D61631 /* Pods-KovacAdvisory.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 867742L8F8;
+				INFOPLIST_FILE = KovacAdvisory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovac.kovacAdvisory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KovacAdvisory/KovacAdvisory-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40526AE21EC4DA35009F6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3CE0312939D1034CA49877 /* Pods-KovacAdvisory.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 867742L8F8;
+				INFOPLIST_FILE = KovacAdvisory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovac.kovacAdvisory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KovacAdvisory/KovacAdvisory-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40526AB01EC4DA35009F6126 /* Build configuration list for PBXProject "KovacAdvisory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40526ADE1EC4DA35009F6126 /* Debug */,
+				40526ADF1EC4DA35009F6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40526AE01EC4DA35009F6126 /* Build configuration list for PBXNativeTarget "KovacAdvisory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40526AE11EC4DA35009F6126 /* Debug */,
+				40526AE21EC4DA35009F6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40526AAD1EC4DA35009F6126 /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (4.0.11)
+  - KeychainSwift (10.0.0)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - KeychainSwift (~> 10.0)
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
+  KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: 12f687e2c408188551f8b617872cc3b6fbb9da06
+
+COCOAPODS: 1.4.0.beta.2
